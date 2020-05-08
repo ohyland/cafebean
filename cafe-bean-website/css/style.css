@@ -1,0 +1,1264 @@
+/* Start BASE styles */
+
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,del,dfn,em,img,strong,sub,sup,bu,i,dl,dt,dd,
+ol,ul,li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../images/coffee-beans-desktop.jpg);
+  background-color: #b98b6f;
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1280px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Abhaya Libre";
+  font-size: 7em;
+  color: #b98b6f;
+  font-weight: 600;
+}
+h1 span {
+  font-family: Montserrat, sans-serif;
+  color: #654430;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
+  font-weight: 100;
+}
+
+h3 {
+  color: #b98b6f;
+  font-style: italic;
+  font-size: 1em;
+  margin: 1em 0;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+main {
+  background-color: white;
+  min-height: 100vh;
+  padding: 65px 23%;
+  display: block; /* to see the content in internet explorer 10 */ 
+  overflow:hidden;
+}
+/* End BASE styles */
+
+
+
+
+/****** HEADER styles start ******/
+header {
+  height: 187px;
+  width: 100%;
+  background-color: #1b1f23;
+  border-bottom: 5px solid #4b2904;
+  text-align: center;
+  z-index:999;
+}
+
+header p {
+  color: #78aacd;
+  font-size: 1.4em;
+  font-family: Averia Serif Libre;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Header - Main Navigation */
+header nav a {
+  color: #ebe1cd;
+  text-decoration: none;
+}
+header a:hover,
+header a:focus {
+  color: rgb(205, 187, 153);
+}
+
+header li {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.2em;
+  color: rgb(176, 163, 139);
+  text-transform: uppercase;
+  font-family: Abhaya Libre;
+  font-weight: 800;
+  
+}
+
+/****** HEADER styles end ******/
+
+/*HOME main content start*/
+#home .tagline{
+	background-color:#b98b6f;
+	color:#fff;
+	font-size:1.2em;
+	text-align:center;
+	padding:10%;
+}
+#home .tagline span{
+	font-style:italic;
+	color:#1b1f23;
+}
+#home{
+	padding:0;}
+
+#home .slick-slider {
+	margin-top: 0;
+}
+/*HOME main content end*/
+
+/* HAMBURGER MENU */
+.hamburger__icon,
+.hamburger__icon:after,
+.hamburger__icon:before {
+	background-color: #b98b6f;
+}
+
+.fat-nav a:hover {
+	color: rgb(205, 187, 153);
+}
+
+
+
+/****** Start ABOUT section ******/
+
+/*h2 {
+  margin-bottom: 1em;
+  font-weight: 100;
+}*/
+
+.about h3 {
+  margin: 50px 0 21px;
+  font-size: 1.6em;
+}
+
+.about p {
+  line-height: 1.5em;
+}
+
+.about section p span {
+  color: #654430;
+}
+
+/*  CAROUSEL (about)*/
+
+.about .slick-slide img {
+  width: 185px;
+  height: 150px;
+}
+
+.about .about-carousel img {
+  opacity: 0.2;
+}
+
+.about .about-carousel .slick-center img {
+  opacity: 1;
+}
+
+/* BANNER steps to create the parallax effect */
+.banner {
+  background-image: url(../images/about/coffee-beans-about.jpg);
+  min-height: 250px;
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner span {
+  color: white;
+  font-weight: 600;
+  font-size: 2.5em;
+  position: absolute;
+  top: 55%;
+  left: 40%;
+}
+
+.banner i {
+  color: white;
+  display: block;
+  position: absolute;
+  top: 22%;
+  left: 50%;
+}
+
+/****** End ABOUT section ******/
+
+
+/****** sustainability page styles ******/	
+.sustcontent h2
+	{
+		padding: 5%;
+		text-align: center;
+	}
+
+
+.sustcontent h3
+	{
+		clear: both;
+		padding-bottom: .5%;
+	}	
+
+	
+.imagefloat p
+	{
+		width: 70%;
+		float: left;
+		padding-top: 3%;
+	}
+	
+	
+.imagefloat img
+	{
+		float: right;
+		padding-top: 2%;
+	}
+
+	
+
+.sustcontent p
+	{
+		padding-bottom: 2%;
+	}	
+
+
+
+/****** menu download link style ******/
+.menu a img
+	{
+		margin-left: 2%;
+		margin-top: 10%; 
+	}
+
+
+.menu a p
+	{
+		width: 20%;
+		color: #000;
+	}
+	
+	
+.menu a img:hover
+	{
+		border: .3em solid #B98B6F; 
+	}
+/* menu download nk styles closing*/
+
+/*breakfast menu content styles opening*/
+.breakfastcontent
+	{
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	
+.breakfastcontent h2
+	{
+		text-align: center;
+		padding-top: 5%;
+	}
+	
+
+	
+.breakfastcontent h3
+	{
+		padding-top: 2.5%;
+	}
+	
+	
+.breakfastcontent p
+	{
+		padding-left: 2.5%;
+		padding-top: 2.5%;
+		color: #000;
+		
+	}
+
+/*blt div style*/
+.blt img
+	{
+		float: left;
+	}
+	
+	
+.blt p
+	{		
+		float: left;
+	}
+
+
+/*full irish div style*/
+.fullirish h3
+	{
+		clear: both;
+	}
+	
+	
+.fullirish img
+	{
+		float: left;
+	}
+	
+	
+.fullirish p
+	{
+		width: 70%;
+		float: left;
+	}
+	
+	
+/*porridge div style*/
+.porridge h3
+	{
+		clear: both;
+	}
+	
+	
+.porridge img
+	{
+		float: left;
+	}
+	
+	
+.porridge p
+	{
+		width: 70%;
+		float: left;
+	}
+
+
+/*scones div style*/
+.scones h3
+	{
+		clear: both;
+	}
+	
+	
+.scones img
+	{
+		float: left;
+	}
+	
+	
+.scones p
+	{
+		width: 70%;
+		float: left;
+	}
+	
+	
+/*french toast div style*/
+.frenchtoast h3
+	{
+		clear: both;
+	}
+	
+	
+.frenchtoast img
+	{
+		float: left;
+	}
+	
+	
+.frenchtoast p
+	{
+		width: 70%;
+		float: left;
+	}
+	
+	
+/*egg on toast div style*/
+.eggontoast h3
+	{
+		clear: both;
+	}
+	
+	
+.eggontoast img
+	{
+		float: left;
+	}
+	
+	
+.eggontoast p
+	{
+		width: 70%;
+		float: left;
+	}
+	
+	
+/*breakfast bagel div style*/
+.breakfastbagel h3
+	{
+		clear: both;
+	}
+	
+	
+.breakfastbagel img
+	{
+		float: left;
+	}
+	
+	
+.breakfastbagel p
+	{
+		width: 70%;
+		float: left;
+	}
+	
+	
+	
+/*panini div style*/
+.panini h3
+	{
+		clear: both;
+	}
+	
+	
+.panini img
+	{
+		float: left;
+	}
+	
+	
+.panini p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+/*breakfast menu content styles closing*/
+	
+
+
+/*lunch menu content styles opening*/
+.lunchcontent
+	{
+		clear: both;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		overflow:hidden;
+	}
+
+	
+.lunchcontent h2
+	{
+		text-align: center;
+		padding-top: 5%;
+	}
+
+	
+.lunchcontent h3
+	{
+		padding-top: 2.5%;
+	}
+	
+	
+.lunchcontent p
+	{
+		padding-left: 2.5%;
+		padding-top: 2.5%;
+	}
+	
+/*red pepper soup div style*/
+.redpepper h3
+	{
+		clear: both;
+	}
+	
+	
+.redpepper img
+	{
+		float: left;
+	}
+	
+	
+.redpepper p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*bean burrito div style*/
+.beanburrito h3
+	{
+		clear: both;
+	}
+	
+	
+.beanburrito img
+	{
+		float: left;
+	}
+	
+	
+.beanburrito p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*blt bagel div style*/
+.bagel h3
+	{
+		clear: both;
+	}
+	
+	
+.bagel img
+	{
+		float: left;
+	}
+	
+	
+.bagel p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*chicken stirfry div style*/
+.chickenstirfry h3
+	{
+		clear: both;
+	}
+	
+	
+.chickenstirfry img
+	{
+		float: left;
+	}
+	
+	
+.chickenstirfry p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*irish beef stew div style*/
+.beefstew h3
+	{
+		clear: both;
+	}
+	
+	
+.beefstew img
+	{
+		float: left;
+	}
+	
+	
+.beefstew p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*ham and cheese toastie div style*/
+.hamandcheese h3
+	{
+		clear: both;
+	}
+	
+	
+.hamandcheese img
+	{
+		float: left;
+	}
+	
+	
+.hamandcheese p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*house special salad div style*/
+.salad h3
+	{
+		clear: both;
+	}
+	
+	
+.salad img
+	{
+		float: left;
+	}
+	
+	
+.salad p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}
+
+
+/*chicken burger div style*/
+.chickenburger h3
+	{
+		clear: both;
+	}
+	
+	
+.chickenburger img
+	{
+		float: left;
+	}
+	
+	
+.chickenburger p
+	{
+		width: 70%;
+		float: left;
+		padding-bottom: 5%;
+	}	
+/****** lunch menu content styles closeing ******/
+
+
+
+
+/****** Start BEVERAGES section ******/
+
+main.beverages {
+  padding: 65px 8% 20px 8%;
+}
+
+.beverages h3 {
+  display: inline-block;
+  margin: 1em 0; 
+}
+
+.beverages-description {
+  background-color: #b98b6f;
+  padding: 15px;
+}
+
+.beverages-description.slick-slider {
+	margin-top: 0;
+}
+
+.beverages-description p {
+  color: white;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+.beverages span {
+  float: right;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+
+.beverages hr {
+  margin-top: -10px;
+  border-top: 1px solid #c19d8e9c;
+}
+
+.beverages .price-list {
+  padding-bottom: 25px;
+}
+
+.beverages .beverages-price-list {
+  display: inline-block;
+  width: 50%;
+}
+
+.beverages .beverages-imgs {
+  display: inline-block;
+  width: 45%;
+  height: 400px;
+  vertical-align: top;
+  margin-right: 3%;
+}
+
+.beverages-carousel.slick-slider .slick-list,
+.beverages-carousel.slick-slider .slick-track,
+.beverages-carousel.slick-slider {
+  height: 100%;
+  margin: 0;
+}
+
+.beverages-carousel div {
+  background-size: cover;
+  background-position: center center;
+}
+
+.beverages-carousel .gallery-img1 {
+  background-image: url(../images/beverages/americano.jpg);
+}
+
+.beverages-carousel .gallery-img2 {
+  background-image: url(../images/beverages/cappuccino.jpg);
+}
+
+.beverages-carousel .gallery-img3 {
+  background-image: url(../images/beverages/flat-white.jpg);
+}
+
+.beverages-carousel .gallery-img4 {
+  background-image: url(../images/beverages/white-chocolate-mocha.jpg);
+}
+
+.beverages-carousel .gallery-img5 {
+  background-image: url(../images/beverages/cafe-mocha.jpg);
+}
+
+.beverages-carousel .gallery-img6 {
+  background-image: url(../images/beverages/herbal-tea.jfif);
+}
+
+.beverages-carousel .gallery-img7 {
+  background-image: url(../images/beverages/teas.jfif);
+}
+
+.beverages-carousel .gallery-img8 {
+  background-image: url(../images/beverages/soft-drinks.jfif);
+}
+
+.beverages-carousel .gallery-img9 {
+  background-image: url(../images/beverages/orange-juice.jfif);
+}
+/****** end beverages section ******/
+
+
+
+/****** CONTACT start ******/
+
+/*contact left column*/
+.contact-right{
+	width:35%;
+	float:right;
+}
+.contact-left{
+	width:55%;
+	float:left;
+}
+/*contact form styles*/
+#contactform input, #contactform textarea{
+	border: 1px solid rgb(176, 149, 117);
+	background:url("../images/contact/coffee-beans-input.jpg");
+	background-size: cover;
+}
+#contactform input{
+	width:100%;
+	padding:6px;
+}
+#contactform label{
+	display:block;
+	margin: 5px 0;
+}
+#contactform textarea{
+	width:100%;
+	padding:5px;
+	height:150px;
+	resize:none;
+}
+#contactform ::placeholder {
+	color:#fff;
+	opacity: 1; /* Firefox */
+  }
+/*Submit button*/
+#contactform [type="submit"]{
+	width: 20%;
+	margin: 5px 0px 10px 5px;
+	background-image: none;
+	background-color: #cdbb99;
+	cursor: pointer;
+}
+#contactform [type="submit"]:hover{
+	color: #cdbb99;
+	background-color: white;
+}
+/*Social Media Icons*/
+.contact li{
+	padding:5px 0px 5px 40px;
+	margin: 9px;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+}
+
+.contact .facebook{
+	background-image: url("../images/contact/facebook-icon.png");
+}
+.contact .instagram{
+	background-image: url("../images/contact/instagram-icon.png");
+}
+.contact .twitter{
+	background-image: url("../images/contact/twitter-icon.png");
+}
+/*links*/
+.contact a{
+	color:black;
+}
+
+/*Image and Google Map*/
+.contact h3{
+	clear:both;
+}
+.contact img{
+	width:50%;
+	float:left;
+
+}
+.contact iframe{
+	width:50%;
+	height: 310px;
+	float:right;
+}
+.contact .drop-in {
+	height: 370px;
+}
+
+/****** CONTACT main content end ******/
+
+
+
+/****** FOOTER section ******/
+
+footer {
+  background-color: #353535;
+  border-top: 2px solid #6087a2;
+  padding: 15px;
+  line-height: 1.6em;
+}
+
+footer section {
+  display: inline-block;
+  width: 24%;
+  vertical-align: top;
+  padding-right: 35px;
+  box-sizing: border-box;
+}
+
+footer span,
+footer p {
+  color: white;
+}
+
+footer .fa {
+	color: #b4886f;
+    margin-top: 20px;
+}
+
+footer a {
+	margin-right: 15px;
+} 
+
+/* Section: logo/copyright */
+footer .logo span {
+  font-family: "Abhaya Libre", serif;
+  color: #b98b6f;
+  font-size: 1.3em;
+}
+
+footer .logo h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #654430;
+}
+
+footer .logo p {
+  position: relative;
+  bottom: -130px;
+}
+
+/* Section: opening hours */
+footer .opening-hours {
+  position: relative;
+}
+
+footer .opening-hours span {
+  background-color: #353535;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  padding: 0px 8px;
+}
+
+footer .opening-hours span:last-of-type {
+  float: right;
+}
+
+footer .opening-hours .line {
+  width: 92%;
+  border: 1px solid #b98b6f;
+  margin: 3px;
+  position: absolute;
+  bottom: 2px;
+}
+
+/* Section: Subscribe */
+footer button {
+  background-color: #cdbb99;
+  border: none;
+  padding: 3px 10px 3px 10px;
+  margin-left: -3px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  color: #cdbb99;
+  background-color: white;
+}
+
+footer form input {
+  background-color: #fff;
+  transition: background-color 0.5s ease-in-out;
+}
+
+footer form input:focus {
+  outline: none; /* outline: none + border-color = to change the color of my input */
+  border-color: #b98b6f;
+  background-color: #ffe6d7;
+}
+/****** End FOOTER Styles ******/
+
+
+
+/****** @media desktop ******/
+@media screen and (min-width: 769px) {
+	.hamburger,
+	.fat-nav {
+		display: none;
+	}
+}
+
+
+
+
+
+/****** @media tablet ******/
+@media screen and (max-width: 768px) {
+  .wrapper {
+		width: 100%;
+    }
+
+  body {
+		background-image: url(../images/coffee-beans-tablet.jpg);
+	}
+	
+	main {
+		padding: 65px 8% 20px;
+	}
+
+	h1 {
+		font-size: 5em;
+		text-align: right;
+		padding-right: 10px;
+	}
+
+	header {
+		height: 80px;
+		position:fixed;
+	}
+
+	header p {
+		display: none;
+	}
+
+	header nav {
+		display: none;
+	}
+	
+	.contact, .beverages-price-list, .about{
+		padding-top:100px;
+	}
+	
+	.beverages .beverages-imgs,
+    .beverages .beverages-description {
+		display: none;
+	}
+
+	.beverages .beverages-price-list {
+		width: 100%;
+	}
+
+	.about-carousel {
+		display: none;
+	}
+	
+	
+	/*sustainability content*/	
+	.sustcontent
+	{
+		clear: both;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+	
+	
+	.sustcontent img
+	{
+		width:100%;
+	}
+	
+	/*menu content style*/
+	.menu
+		{
+			/* width: 80%; */
+			margin-left: auto;
+			margin-right: auto;
+			margin-left: 0%;
+			padding-left: 2%;
+		}
+
+	
+	.menu a p
+		{
+			display: none;
+		}
+		
+
+
+	/*breakfast menu style*/
+	.breakfastcontent
+		{
+			clear: both;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+		
+	
+		.breakfastcontent h3
+		{
+			padding-bottom: .1em;
+			padding-top: 1em;
+		}
+		
+		
+		.breakfastcontent p
+		{
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+			padding-bottom: .1em;
+			padding-top: .1em;
+		}
+		
+		
+	.breakfastcontent img
+		{
+			display: none;
+		}
+		
+		
+	/*lunch menu style*/
+	.lunchcontent
+		{
+			clear: both;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+		
+		
+	.lunchcontent img
+		{
+			display: none;
+		}
+		
+		.lunchcontent p
+		{
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+	
+	.contact img, .contact iframe {
+		float:none;
+		width: 100%;
+	}
+
+	footer {
+		padding-bottom: 35px;
+	}
+
+	footer h3.logo {
+		display: none;
+	}
+
+	footer section {
+		display: block;
+		width: 100%;
+	}
+
+	footer h3 {
+		margin-top: 15px;
+	}
+
+	footer .logo p {
+		position: relative;
+		bottom: -455px;
+		font-size: .8em;
+	}
+}
+
+/****** Mobile Media Query ******/
+@media screen and (max-width: 468px) {
+  body {
+    background-image: url(../images/coffee-beans-mobile.jpg);
+  }
+  
+  h1 {
+		font-size: 3.6em;
+		text-align: right;
+	}
+
+	/* about page */
+	.banner span {
+		font-size: 1.5em;
+	}
+
+	.banner i {
+		top: 28%;
+		left: 57%;
+	}
+	
+	
+	/* sustainability content*/	
+	.sustcontent
+	{
+		clear: both;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+	
+	
+	.sustcontent img
+	{
+		display: none;
+	}
+	
+	/*menu download linkcontent style*/
+
+	.menu a p
+		{
+			display: none;
+		}
+
+
+/*breakfast menu style*/
+	.breakfastcontent
+		{
+			clear: both;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+		
+	
+		.breakfastcontent h3
+		{
+			padding-bottom: .1em;
+			padding-top: 1em;
+		}
+		
+		
+		.breakfastcontent p
+		{
+			padding-bottom: .1em;
+			padding-top: .1em;
+		}
+		
+		
+	.breakfastcontent img
+		{
+			display: none;
+		}
+		
+		
+	.breakfastcontent p
+		{
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+		
+
+
+	/*lunch menu style*/	
+	.lunchcontent
+		{
+			clear: both;
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+		
+		
+	.lunchcontent img
+		{
+			display: none;
+		}
+		
+		
+	.lunchcontent p
+		{
+			width: 100%;
+			margin-left: auto;
+			margin-right: auto;
+			padding-left: 1%;
+			padding-right: 1%;
+		}
+	
+	.contact-right, .contact-left{
+		float:none;
+		width: 100%;
+	}
+}
